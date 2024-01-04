@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(216, 203, 182);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-color: #0000ff;
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: x-large;
+}
+
+div { 
+    padding: 20px;
+    border: 20px double black;
+    border-radius: 10px;
+}
+

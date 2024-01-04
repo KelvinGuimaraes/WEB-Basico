@@ -1,0 +1,43 @@
+*{
+    text-align: left;
+    background-color:antiquewhite;
+    align-items:flex-start;
+}
+
+#cabeçalho{
+    font-family: 'Times New Roman', Times, serif;
+
+    border: 5px solid black;
+
+    position: absolute; top: 0%; left: 5%; 
+    width: 800px; height: 60px; z-index: 300;
+}
+
+#menu{
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+
+    position: absolute; top: 7%; left: 5%; 
+    width: 250px; height: 330px; z-index: 100;
+}
+
+#conteudo{
+    border-right: 5px solid black;
+    position: absolute; top: 7%; left: 19%; 
+    width: 530px; height: 330px; z-index: 100;
+
+    margin-left: 6px;
+    
+}
+
+#rodape{
+    border: 5px solid black;
+    margin-top: 4px; 
+
+    position: absolute; top: 40%; left: 5%; 
+    width: 800px; height: 50px; z-index: 200;
+}
+
+@media (max-width: 800px;){
+    
+}

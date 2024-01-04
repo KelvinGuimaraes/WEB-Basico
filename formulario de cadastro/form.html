@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>aula7</title>
+</head>
+
+<body>
+
+    <ul class="nav nav-tabs">
+        <li><a href="#corvinal" onclick="listar(this.innerHTML)">Corvinal</a></1i>
+        <li><a href="#grifinoria" onclick="listar(this.innerHTML)">Grifinéria</a</1i>
+        <li><a href="#lufalufa"onclick="istar(this.innerHTML)">Lufa-Lufa</a></11>
+        <li><a href="#sonserina"onclick="listar(this.innerHTML)">Sonserina</a></1i>
+    </ul>
+        
+    <div class="tab-content">
+    <div id="listaralunos" class="tab-pane active">
+    </div></div>
+
+    <div class="modal-dialog">
+    <div class="modal-content"> 
+    <div class="modal-header">
+        <h1>Novo estudante</h1>
+    </div>
+    
+    <div class="modal-body"> 
+        <form>
+            <div class="form-group"> 
+                <label for="none">Nome:</label>
+                <input type="text" class="form-control" id="nome">
+            </div> 
+            
+            <div class="form-group">        
+                <label for="none">Casa:</label> 
+                <select id="casa" class="form-control">            
+                    <option value="">--Escolha a casa--</option>            
+                    <option value="Corvinal">Corvinal</option>            
+                    <option value="Grifinória">Grifinória</option>             
+                    <option value="Lufa-Lufa">Lufa-Lufa</option>            
+                    <option value="Sonserina">Sonserina</option>
+                </select> 
+            </div>
+            
+            <div class="form-group">     
+                <label for="animal">Animal:</label>
+                <input type="text" class="form-control" id="animal">
+            </div>
+            
+            <div class="form-group">         
+                <label for="local">Local:</label>
+                <input type="text" class="form-control" id="local">
+            </div>
+            
+            <button type="button" class="btnbtn-default" 
+            onclick="matricular()">Matricular</button>
+        
+        </form></div></div></div>
+        
+        <script src="./js/JS simples.js"></script>
+
+</body>
+
+</html>

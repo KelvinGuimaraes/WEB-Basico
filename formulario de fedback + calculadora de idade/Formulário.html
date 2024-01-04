@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./css/style.css"/>
+  <title>Exemplo de Formulário</title>
+</head>
+
+<body>
+  <div>
+
+    <h1>Formulário de Feedback - Prática Aula</h1>
+
+    Por Favor responda esse Formulário:<br><br>
+
+    <form action="" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br><br>
+
+      <label for="senha">Matrícula:</label>
+      <input type="password" id="senha" maxlength="14" name="senha" required><br><br>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label>Gênero:</label>
+      <input type="radio" id="genero-m" name="genero" value="masculino">
+      <label for="genero-m">Masculino</label>
+      <input type="radio" id="genero-f" name="genero" value="feminino">
+      <label for="genero-f">Feminino</label><br><br>
+
+      <label>Data:</label>
+      <input type="date" id="data" name="data"><br><br>
+
+      <label>O que mais você gostou:</label><br>
+      <input type="checkbox" id="checkbox-links" name="gostou" value="links">
+      <label for="checkbox-links">Links</label>
+      <input type="checkbox" id="checkbox-formularios" name="gostou" value="formularios">
+      <label for="checkbox-formularios">Formulários</label>
+      <input type="checkbox" id="checkbox-imagens" name="gostou" value="imagens">
+      <label for="checkbox-imagens">Imagens</label><br><br>
+
+      <label>Como posso melhorar?</label><br>
+      <input type="radio" id="melhorar-praticas" name="melhorar" value="praticas">
+      <label for="melhorar-praticas">Mais práticas</label>
+      <input type="radio" id="melhorar-teoricas" name="melhorar" value="teoricas">
+      <label for="melhorar-teoricas">Mais teóricas</label><br><br>
+
+      <label for="mensagem">Me diga algumas ideias de como melhorar:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="6" cols="100" required></textarea><br><br>
+
+      <label for="avaliacao">Avalie esse Formulário:</label>
+      <select id="avaliacao" name="avaliacao">
+        <option value="pode melhorar">pode melhorar</option>
+        <option value="legal">legal</option>
+        <option value="legal demais">legal demais \o/</option>
+      </select><br><br>
+
+      <input type="submit" name="Enviar" value="Enviar">
+      <input type="reset" name="Limpar" value="Limpar"><br><br>
+
+      <h6>Gostaria de calcular sua Idade?</h6>
+      <a href="./data.html" id="sua-idade">Calcular minha idade</a>
+
+    </form>
+
+  </div>
+  
+</body>
+
+</html>
