@@ -20,7 +20,7 @@ Bem-vindo ao repositório de projetos básicos de desenvolvimento web! Aqui voc�
 
 1. Clone este repositório para o seu computador:
 
-git clone https://github.com/KelvinGuimaraes/WEB-Basico.git
+`git clone https://github.com/KelvinGuimaraes/WEB-Basico.git`
 
 2. Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
 
